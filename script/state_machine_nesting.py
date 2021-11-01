@@ -76,7 +76,7 @@ def main():
         with sm_sub:
 
             # Add states to the container
-            smach.StateMachine.add('Base_move', Base_move(), transitions={'forward':'Arm_move', 'backward':'outcome'})
+            smach.StateMachine.add('Base_move', Base_move(), transitions={'forward':'Arm_move', 'backward':'outcome4'})
             smach.StateMachine.add('Arm_move', Arm_move(), transitions={'arm_move':'Base_move'})
 
         smach.StateMachine.add('SUB', sm_sub, transitions={'outcome4':'End'})
