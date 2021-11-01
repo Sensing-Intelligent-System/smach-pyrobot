@@ -79,7 +79,7 @@ def main():
         # Create the sub SMACH state machine
         sm_con = smach.Concurrence(outcomes=['outcome','CON_OUT'],
                                    default_outcome='outcome',
-                                   outcome_map={'outcome5':
+                                   outcome_map={'CON_OUT':
                                        { 'Base_move':'backward',
                                          'Arm_move':'arm_home'}})
 
