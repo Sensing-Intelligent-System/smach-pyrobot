@@ -89,9 +89,9 @@ def main():
         smach.StateMachine.add('Move_back',
                                smach_ros.SimpleActionState('test_action', TestAction,
                                goal = TestGoal(goal=1)),
-                               {'succeeded':'Cycle_counter','aborted':'Move_back'})
+                               {'succeeded':'If_done','aborted':'Move_back'})
 
-        smach.StateMachine.add('Cycle_counter',
+        smach.StateMachine.add('If_done',
                                smach_ros.SimpleActionState('test_action', TestAction,
                                goal = TestGoal(goal=4)),
                                {'succeeded':'Pick','aborted':'End'})
