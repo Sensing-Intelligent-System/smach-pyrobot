@@ -47,11 +47,11 @@ class TestServer:
             self._sas.set_succeeded()
             time.sleep(2.5)
         elif msg.goal == 4:
-            if self.counter != self.cyc:
-                self.counter += 1
+            if self.counter == self.cyc:
                 self._sas.set_succeeded()
                 time.sleep(2.5)
             else:
+                self.counter += 1
                 self._sas.set_aborted()
                 time.sleep(2.5)
 
@@ -94,7 +94,7 @@ def main():
         smach.StateMachine.add('If_done',
                                smach_ros.SimpleActionState('test_action', TestAction,
                                goal = TestGoal(goal=4)),
-                               {'succeeded':'Pick','aborted':'End'})
+                               {'succeeded':'End','aborted':'Pick'})
 
         # For more examples on how to set goals and process results, see 
         # executive_smach/smach_ros/tests/smach_actionlib.py
