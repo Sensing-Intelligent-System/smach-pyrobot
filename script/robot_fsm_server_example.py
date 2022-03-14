@@ -23,7 +23,7 @@ class TestServer:
         self.joint_position_1 = [0.408, 0.721, -0.471, -1.4, 0.920]
         self.joint_position_2 = [-0.675, 0, 0.23, 1, -0.70]
         self.counter = 0
-        self.cyc = 1
+        self.cyc = 0
 
     def execute_cb(self, msg):
         if msg.goal == 0:
