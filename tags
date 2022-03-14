@@ -1,0 +1,68 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Arm_move	script/concurrence.py	/^class Arm_move(smach.State):$/;"	c
+Arm_move	script/state_machine_nesting.py	/^class Arm_move(smach.State):$/;"	c
+Arm_move	script/state_machine_simple.py	/^class Arm_move(smach.State):$/;"	c
+Arm_move	script/user_data.py	/^class Arm_move(smach.State):$/;"	c
+Base_move	script/concurrence.py	/^class Base_move(smach.State):$/;"	c
+Base_move	script/state_machine_nesting.py	/^class Base_move(smach.State):$/;"	c
+Base_move	script/state_machine_simple.py	/^class Base_move(smach.State):$/;"	c
+Base_move	script/user_data.py	/^class Base_move(smach.State):$/;"	c
+Camera_move	script/concurrence.py	/^class Camera_move(smach.State):$/;"	c
+Camera_move	script/state_machine_nesting.py	/^class Camera_move(smach.State):$/;"	c
+Init	script/state_machine_simple.py	/^class Init(smach.State):$/;"	c
+Init	script/user_data.py	/^class Init(smach.State):$/;"	c
+TestServer	script/actionlib_test.py	/^class TestServer:$/;"	c
+TestServer	script/robot_fsm_server_example.py	/^class TestServer:$/;"	c
+__init__	script/actionlib_test.py	/^    def __init__(self,name):$/;"	m	class:TestServer
+__init__	script/concurrence.py	/^    def __init__(self):$/;"	m	class:Arm_move
+__init__	script/concurrence.py	/^    def __init__(self):$/;"	m	class:Base_move
+__init__	script/concurrence.py	/^    def __init__(self):$/;"	m	class:Camera_move
+__init__	script/robot_fsm_server_example.py	/^    def __init__(self,name):$/;"	m	class:TestServer
+__init__	script/state_machine_nesting.py	/^    def __init__(self):$/;"	m	class:Arm_move
+__init__	script/state_machine_nesting.py	/^    def __init__(self):$/;"	m	class:Base_move
+__init__	script/state_machine_nesting.py	/^    def __init__(self):$/;"	m	class:Camera_move
+__init__	script/state_machine_simple.py	/^    def __init__(self):$/;"	m	class:Arm_move
+__init__	script/state_machine_simple.py	/^    def __init__(self):$/;"	m	class:Base_move
+__init__	script/state_machine_simple.py	/^    def __init__(self):$/;"	m	class:Init
+__init__	script/user_data.py	/^    def __init__(self):$/;"	m	class:Arm_move
+__init__	script/user_data.py	/^    def __init__(self):$/;"	m	class:Base_move
+__init__	script/user_data.py	/^    def __init__(self):$/;"	m	class:Init
+base_config_dict	script/actionlib_test.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+base_config_dict	script/concurrence.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+base_config_dict	script/robot_fsm_server_example.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+base_config_dict	script/state_machine_nesting.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+base_config_dict	script/state_machine_simple.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+base_config_dict	script/user_data.py	/^base_config_dict={'base_controller': 'ilqr'} $/;"	v
+execute	script/concurrence.py	/^    def execute(self, userdata):$/;"	m	class:Arm_move
+execute	script/concurrence.py	/^    def execute(self, userdata):$/;"	m	class:Base_move
+execute	script/concurrence.py	/^    def execute(self, userdata):$/;"	m	class:Camera_move
+execute	script/state_machine_nesting.py	/^    def execute(self, userdata):$/;"	m	class:Arm_move
+execute	script/state_machine_nesting.py	/^    def execute(self, userdata):$/;"	m	class:Base_move
+execute	script/state_machine_nesting.py	/^    def execute(self, userdata):$/;"	m	class:Camera_move
+execute	script/state_machine_simple.py	/^    def execute(self, userdata):$/;"	m	class:Arm_move
+execute	script/state_machine_simple.py	/^    def execute(self, userdata):$/;"	m	class:Base_move
+execute	script/state_machine_simple.py	/^    def execute(self, userdata):$/;"	m	class:Init
+execute	script/user_data.py	/^    def execute(self, userdata):$/;"	m	class:Arm_move
+execute	script/user_data.py	/^    def execute(self, userdata):$/;"	m	class:Base_move
+execute	script/user_data.py	/^    def execute(self, userdata):$/;"	m	class:Init
+execute_cb	script/actionlib_test.py	/^    def execute_cb(self, msg):$/;"	m	class:TestServer
+execute_cb	script/robot_fsm_server_example.py	/^    def execute_cb(self, msg):$/;"	m	class:TestServer
+goal_callback	script/actionlib_test.py	/^        def goal_callback(userdata, default_goal):$/;"	f	function:main
+main	script/actionlib_test.py	/^def main():$/;"	f
+main	script/concurrence.py	/^def main():$/;"	f
+main	script/robot_fsm_client_example.py	/^def main():$/;"	f
+main	script/state_machine_nesting.py	/^def main():$/;"	f
+main	script/state_machine_simple.py	/^def main():$/;"	f
+main	script/user_data.py	/^def main():$/;"	f
+robot	script/actionlib_test.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+robot	script/concurrence.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+robot	script/robot_fsm_server_example.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+robot	script/state_machine_nesting.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+robot	script/state_machine_simple.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+robot	script/user_data.py	/^robot = Robot('locobot', base_config=base_config_dict)$/;"	v
+server	script/robot_fsm_server_example.py	/^    server = TestServer('test_action')$/;"	v
